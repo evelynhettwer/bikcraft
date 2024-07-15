@@ -1,0 +1,19 @@
+.termos {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.termos h2:not(:first-child) {
+  margin-top: 32px;
+}
+
+.termos p {
+  /*definir largura da linha para não crescer infinitamente, adicionando carachteres que é "ch" em max-width*/
+  max-width: 75ch;
+  margin-bottom: 20px;
+}

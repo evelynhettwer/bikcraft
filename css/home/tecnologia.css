@@ -1,5 +1,6 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
+  overflow-x: hidden; /* Adicionado para evitar overflow horizontal */
 }
 
 .tecnologia {
@@ -24,7 +25,6 @@
 }
 
 .tecnologia-conteudo > span {
-  /*colocar em display block porque span é display line, se não, não consegue aplicar margem*/
   display: block;
   margin-bottom: 20px;
 }
@@ -44,11 +44,11 @@
 .tecnologia-vantagens {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap; /* Adicionado para evitar overflow */
 }
 
 .tecnologia-vantagens h3 {
   margin-bottom: 8px;
-  /*para não quebrar o título*/
   width: max-content;
 }
 
