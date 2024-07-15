@@ -17,3 +17,14 @@
   max-width: 75ch;
   margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+  .termos h2 {
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    margin-bottom: 16px;
+  }
+  .termos p {
+    font: 400 0.875rem/1.4285 "Roboto", sans-serif;
+    margin-bottom: 16px;
+  }
+}

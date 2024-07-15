@@ -44,7 +44,6 @@
 .tecnologia-vantagens {
   display: flex;
   gap: 40px;
-  flex-wrap: wrap; /* Adicionado para evitar overflow */
 }
 
 .tecnologia-vantagens h3 {
