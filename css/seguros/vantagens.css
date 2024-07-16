@@ -1,0 +1,45 @@
+.vantagens-bg {
+  background-color: var(--cor-12);
+}
+
+.vantagens {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.vantagens h2 {
+  padding-bottom: 40px;
+}
+.vantagens ul {
+  display: grid;
+  /*criar um layout responsivo sem precisar ficar configurando as colunas quando a tela diminuir*/
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  /*40px para baixo e 80px para o lado*/
+  gap: 40px 80px;
+}
+
+.vantagens h3,
+.vantagens img {
+  margin-bottom: 8px;
+}
+
+.vantagens img {
+  width: 30px;
+}
+
+.locker img {
+  width: 24px;
+}
+
+@media (max-width: 800px) {
+  .vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .vantagens h2 {
+    margin-bottom: 20px;
+  }
+  .vantagens ul {
+    margin-bottom: 20px;
+  }
+}
