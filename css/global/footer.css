@@ -53,7 +53,11 @@
     display: none;
   }
   .footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .footer-copy {
+    margin: 0px 0px;
+    text-align: left;
   }
 }
 

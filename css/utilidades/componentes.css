@@ -52,6 +52,14 @@
   transform: translateX(4px);
 }
 
+.btn.cart {
+  background: var(--cor-10);
+}
+
+.btn.cart:hover {
+  background: var(--cor-9);
+}
+
 @media (max-width: 800px) {
   .btn {
     padding: 12px 16px;
