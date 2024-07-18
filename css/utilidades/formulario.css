@@ -1,0 +1,48 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form label {
+  display: block;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 0.95rem/1.5 "Roboto", sans-serif;
+  background-color: var(--cor-1);
+  border: 1px solid var(--cor2);
+  border-radius: 2px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*quando seleciona a caixinha, há aquela borda na volta que indica que ela está selecionada, ela se chama focus*/
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  /*1º tirar o outline padrão do navegador*/
+  outline: none;
+  /*2º personalizar com border*/
+  border-color: var(--cor-p1);
+  box-shadow: 0 0 0 2px var(--cor-p1);
+  background-color: var(--cor-0);
+}
+
+@media (max-width: 600px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form .col-2 {
+    grid-column: 1;
+  }
+}

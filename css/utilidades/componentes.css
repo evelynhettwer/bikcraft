@@ -18,6 +18,8 @@
   font: 600 1.125rem/1.33 "Poppins", sans-serif;
   /*para ele não expandir para além do próprio tamanho*/
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
