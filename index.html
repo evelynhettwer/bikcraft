@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+  <!--para carregar o css no site antes do restante-->
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <!--fontes utilizadas no site
@@ -28,7 +30,7 @@
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="/img/bikcraft 1.svg" alt="Bikcraft">
+        <img src="/img/bikcraft 1.svg" width="136" height="32" alt="Bikcraft">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -47,9 +49,10 @@
         <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
         <a class="btn" href="./bicicletas.html">SELECIONE A SUA</a>
       </div>
-      <div>
-        <img src="./img/general pictures/introduction.jpg" alt="Bicicleta elétrica preta.">
-      </div>
+      <picture>
+        <source media="max-width: 800px" srcset="./img/bikes/nimbus.jpg">
+        <img src="./img/general pictures/introduction.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
+      </picture>
     </div>
   </main>
 
@@ -127,7 +130,7 @@
 
   <section class="depoimento" aria-label="Depoimento">
     <div>
-      <img src="./img/general pictures/testemony-1.png" alt="Pessoa pedalando uma bicicleta Bikcraft">
+      <img src="./img/general pictures/tt.avif" alt="Pessoa pedalando uma bicicleta Bikcraft">
     </div>
     <div class="depoimento-conteudo">
       <blockquote class="font-1-xl cor-p5">

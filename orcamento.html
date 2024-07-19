@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orçamento | Bikcraft</title>
   <meta name="description" content="Termos e Condições.">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
 
   <!--fontes utilizadas no site
@@ -174,6 +175,12 @@
         <div>
           <label for="estado">Estado</label>
           <input type="text" id="estado" name="estado" placeholder="Selecione">
+        </div>
+
+        <div class="checkbox col-2">
+          <input type="checkbox" name="termos" value="aceito" id="termos">
+          <!--o for do label sempre corresponde ao id do input-->
+          <label for="termos">Li e aceito os <a href="./termos.html">Termos e Condições</a>.</label>
         </div>
 
         <button class="btn col-2">Solicitar orçamento</button>

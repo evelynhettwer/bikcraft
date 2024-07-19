@@ -157,6 +157,41 @@
   display: grid;
 }
 
+.checkbox input,
+.checkbox label {
+  margin: 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 8px;
+}
+
+.checkbox input:checked {
+  background-color: var(--cor-p1);
+}
+
+.checkbox label {
+  font: 400 0.9rem/1.5 "Poppins", sans-serif;
+}
+
+.checkbox label > a {
+  text-decoration: underline;
+}
+
+.checkbox input:hover,
+.checkbox label:hover {
+  cursor: pointer;
+}
+
+.checkbox label > a:hover {
+  color: var(--cor-9);
+}
+
 @media (max-width: 1200px) {
   .orcamento-produto,
   .orcamento-dados {
