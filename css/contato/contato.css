@@ -24,6 +24,10 @@
   background-color: var(--cor-0);
 }
 
+.area-mensagem {
+  resize: none; /* Desativa o redimensionamento */
+}
+
 .contato-dados h2 {
   margin-bottom: 60px;
 }

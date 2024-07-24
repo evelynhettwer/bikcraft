@@ -39,7 +39,9 @@
 }
 
 /*para aparecer o tracinho quando passo o mouse nas categorias do menu*/
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+/*javascript*/
+.header-menu a.ativo::after {
   width: 100%;
 }
 

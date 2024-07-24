@@ -20,6 +20,7 @@ dd {
 ul {
   padding: 0px;
   list-style: none;
+
 }
 
 a {
@@ -36,4 +37,5 @@ img {
 /*terminar com uma palavra específica $=*/
 img [src$=".jpg"] {
   border-radius: 4px;
+  display: f;
 }
